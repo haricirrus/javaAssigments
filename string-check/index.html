@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Enter a string</label>
+    <input type="text" id="string">
+    <p id="para"></p>
+    <button type="submit" onclick="check()">check</button>
+    <script>
+        function check(){
+            let text=document.getElementById("string").value;
+            console.log(text);
+            if (text.startsWith('H')&&text.endsWith('n')){
+                document.getElementById("para").innerText="starts with H and ends with h";
+
+            }
+            else{
+                document.getElementById("para").innerText="Not starts with H and ends with h";
+            }
+        }
+    </script>
+</body>
+</html>
