@@ -1,0 +1,36 @@
+#game {
+  color: goldenrod;
+  text-align: center;
+  font-weight: bold;
+}
+body {
+  background-color: green;
+  background: url("https://image.shutterstock.com/image-photo/dark-green-matte-background-suede-600w-1496352647.jpg");
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+  color: azure;
+}
+
+#start-ele  {
+    background-color: goldenrod;
+    width: 150px;
+    color:#016f32;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
+#new-ele
+{
+    background-color: goldenrod;
+    width: 150px;
+    color:#016f32;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 2px;
+}
